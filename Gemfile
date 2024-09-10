@@ -19,4 +19,6 @@ group :development do
   gem 'rack-ntlm-test-service'
 end
 
+gem 'base64' if RUBY_VERSION >= '3.3'
+
 gemspec
