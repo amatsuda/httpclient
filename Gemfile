@@ -10,6 +10,8 @@ group :development do
   gem 'rake', :require => false
   gem 'rdoc'
   gem 'test-unit'
+  gem 'simplecov'
+  gem 'simplecov-rcov'
   gem 'pry'
   gem 'rack', '~> 2.2'
   gem 'rubysspi'
