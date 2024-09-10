@@ -15,7 +15,7 @@ group :development do
   gem 'pry'
   gem 'rack', '~> 2.2'
   gem 'rubysspi'
-  gem 'rubyntlm'
+  gem 'rubyntlm', '0.6.3'
   gem 'rack-ntlm-test-service'
 end
 
